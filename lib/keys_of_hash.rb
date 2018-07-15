@@ -1,6 +1,6 @@
 class Hash
-  def keys_of(arguments)
-    listOfKeys=[]
+  def keys_of(*argument)
+listOfKeys=[]
 
 argument.each do |arg|
     map do |key,value|
@@ -12,4 +12,3 @@ argument.each do |arg|
 listOfKeys
   end
 end
-
