@@ -1,8 +1,8 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(argument)
     listOfKeys=[]
 
-arguments.each do |arg|
+argument.each do |arg|
     map do |key,value|
      if arg == value
    listOfKeys<< key
